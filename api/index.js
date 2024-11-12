@@ -20,7 +20,7 @@ app.listen(process.env.PORT, () => {
 mongoose
   .connect(
     // "mongodb://localhost:27017/mern-app-amazon"
-    "mongodb+srv://daovanphuong:phuong1996@cluster0.wckno.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+   
   )
   .then(() => {
     console.log("Connected to MongoDB");
